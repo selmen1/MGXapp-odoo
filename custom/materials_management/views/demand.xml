@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="demand_action" model="ir.actions.act_window">
+        <field name="name">Demande MGX</field>
+        <field name="res_model">mgx.order</field>
+        <field name="view_mode">tree,form,kanban</field>
+    </record>
+
+    <menuitem id="demand_menu_mgx"
+        name="Demande"
+        parent="menu_mgx"
+        action="demand_action"
+        sequence="7"/>
+</odoo>

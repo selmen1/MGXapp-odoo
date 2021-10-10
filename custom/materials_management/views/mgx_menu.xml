@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<odoo>
+
+<!-- LE Menu d'MGX  -->
+    <menuitem id="menu_mgx"
+            name="MGX"
+            sequence="10"/>
+
+    <menuitem id="conf_mgx"
+            name="Configuration"
+            parent="menu_mgx"
+            sequence="10"/>
+
+
+</odoo>

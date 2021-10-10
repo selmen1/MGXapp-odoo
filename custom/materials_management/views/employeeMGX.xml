@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<odoo>
+
+    <record id="employee_action" model="ir.actions.act_window">
+        <field name="name">Employee_MGX</field>
+        <field name="res_model">hr.employee</field>
+        <field name="view_mode">kanban,tree,form</field>
+    </record>
+
+
+<!-- LE Menu d'MGX  -->
+
+
+    <menuitem id="emp_menu_mgx"
+        name="employee_MGX"
+        parent="conf_mgx"
+        action="employee_action"
+        sequence="10"/>
+
+
+</odoo>
